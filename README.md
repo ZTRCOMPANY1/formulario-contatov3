@@ -6,3 +6,8 @@
 
 <p>O jeito que expliquei é para aquelas pessoas que não entenden muito bem dessa area, o codigo que disponiblilizei é aberto para todo mundo então pode modificar, pode fazer oque quiser com ele :)</p>
 <p>Só lembrando que o site (https://formspree.io/) ele tem um certo limite de emails que pode chegar nele, depois disso acabar terá que pagar um plano.</p>
+
+
+
+
+<h3>de uma olhada no site https://ztrcompany1.github.io/formulario-contatov3/</h3>
