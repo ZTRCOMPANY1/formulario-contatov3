@@ -3,6 +3,6 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     const form = event.target;
     if (!form.checkValidity()) {
         event.preventDefault(); // Evita o envio
-        alert("Por favor, preencha todos os campos obrigatórios corretamente.");
+        alert("Por favor, Preencha todos os campos obrigatórios corretamente.");
     }
 });
