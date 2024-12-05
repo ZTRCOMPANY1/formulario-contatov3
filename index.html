@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de contasto</title>
+</head>
+
+
+
+
+
+
+<body>  
+    <main>
+        <section>
+            <h2>Formulário e Contato</h2>
+            <form action="coloque o link do seu servidor para coletar as informações" method="POST">
+                <p>
+                    <label for="nome">*Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </p>
+                <p>
+                    <label for="email">*Email</label>
+                    <input type="text" id="Email" name="Email" required> 
+                </p>
+                <p>
+                    <label for="tell">*Telefone</label>
+                    <input type="tel"id="telefone" name="telefone" required>
+                </p>
+                    <label for="setor">*Setor</label>
+                    <select name="setor" id="setor" required>
+                         <option value="Vendas">Vendas</option>
+                         <option value="Financeiro">Financeiro</option>
+                         <option value="Administrador">Administrador</option>
+
+                    </select>
+
+
+                </p>
+                <p>
+                    <label for="mensagem">*Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="80" rows="10" required></textarea>
+                </p>
+                <fieldset>
+                    <legend>*Comunicaçao Urgente</legend>
+                    <input type="radio" id="radio1" name="escolha" value="Sim">
+                    <label for="radio1">Sim</label>
+                    <input type="radio" id="radio2" name="escolha" value="Não">
+                    <label for="radio2">Não</label>
+                </fieldset>
+                <fieldset>
+                <legend>*Objetivo conhecimento do Projeto</legend>
+                <input type="checkbox" id="Buscador" name="opcao" value="Buscador">
+                <label for="Buscador">Buscador</label>
+        
+                <input type="checkbox" id="Publicidade" name="opcao" value="Publicidade">
+                <label for="Publicidade">Publicidade</label>
+
+                <input type="checkbox" id="Amigos" name="opcao" value="Amigos">
+                <label for="Amigos">Amigos</label>
+
+                <input type="checkbox" id="email" name="opcao" value="Email">
+                <label for="email">Email</label>
+
+                <input type="checkbox" id="Outros" name="opcao" value="Outros">
+                <label for="Outros">outros</label>
+                </fieldset>
+                <input type="reset" value="Limpar">
+                 <input type="submit" value="enviar">
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
